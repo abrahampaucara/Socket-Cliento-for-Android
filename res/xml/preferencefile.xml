@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- asockettester/res/xml/preferencefile.xml -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="prefcat_valoresdef"
+        android:summary="@string/prefcat_valoresdef_sum"
+        android:title="@string/prefcat_valoresdef_tit" >
+        <EditTextPreference
+            android:defaultValue="158.42.146.127"
+            android:key="ip"
+            android:summary="@string/prefcat_ip_sum"
+            android:title="IP" />
+        <EditTextPreference
+            android:defaultValue="13"
+            android:key="puerto"
+            android:summary="@string/prefcat_port_sum"
+            android:title="@string/prefcat_port_tit" />
+        <EditTextPreference
+            android:defaultValue="@string/prefcat_com_def"
+            android:key="comando"
+            android:summary="@string/prefcat_com_sum"
+            android:title="@string/prefcat_com_tit" />
+        <EditTextPreference
+            android:defaultValue="1"
+            android:key="numtabs"
+            android:summary="@string/prefcat_numtabs_sum"
+            android:title="@string/prefcat_numtabs_tit" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="prefcat_otros"
+        android:summary="@string/prefcat_otros_sum"
+        android:title="@string/prefcat_otros_tit" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="prefcat_otros_pasopaso"
+            android:summary="@string/prefcat_otros_pasopaso_sum"
+            android:title="@string/prefcat_otros_pasopaso_tit" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

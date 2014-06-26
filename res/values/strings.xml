@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="hello">Hello World</string>
+    <string name="app_name">Android Socket Tester</string>
+    <string name="prefcat_valoresdef_sum">Default values for IP and port</string>
+    <string name="prefcat_valoresdef_tit">Default values</string>
+    <string name="prefcat_port_sum">Default port</string>
+    <string name="prefcat_ip_sum">Default IP</string>
+    <string name="prefcat_port_tit">Port</string>
+    <string name="prefcat_com_def">command</string>
+    <string name="prefcat_com_sum">Default command</string>
+    <string name="prefcat_com_tit">Command</string>
+    <string name="prefcat_numtabs_tit">Tabs</string>
+    <string name="prefcat_numtabs_sum">Number of initial tabs</string>
+    <string name="about_label">About...</string>
+    <string name="menu_about_tit">About...</string>
+    <string name="menu_config_tit">Configuration</string>
+    <string name="menu_plus_tit">Add</string>
+    <string name="menu_minus_tit">Remove</string>
+    <string name="puerto_text">Port:</string>
+    <string name="conecta_text">Connect</string>
+    <string name="cierra_text">Close</string>
+    <string name="send_text">Send</string>
+    <string name="clear_text">Clear</string>
+    <string name="prefcat_otros_sum">Extra configurations</string>
+    <string name="prefcat_otros_tit">Extra</string>
+    <string name="prefcat_otros_pasopaso_sum">Receive response line by line</string>
+    <string name="prefcat_otros_pasopaso_tit">Step by step</string>
+</resources>

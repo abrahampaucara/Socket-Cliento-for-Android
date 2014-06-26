@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- asockettester/res/layout/testsocket.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/TextView_IP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="IP:" />
+
+    <EditText
+        android:id="@+id/EditText_IP"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/TextView_IP"
+        android:hint="0.0.0.0" />
+
+    <TextView
+        android:id="@+id/TextView_Port"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/EditText_IP"
+        android:text="@string/puerto_text" />
+
+    <EditText
+        android:id="@+id/EditText_Port"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/TextView_Port"
+        android:layout_toRightOf="@+id/TextView_Port"
+        android:hint="7" />
+
+    <Button
+        android:id="@+id/Button_Connect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/EditText_Port"
+        android:onClick="clicboton"
+        android:tag="Connect"
+        android:text="conectar" />
+
+    <Button
+        android:id="@+id/Button_Close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/Button_Connect"
+        android:layout_toRightOf="@+id/Button_Connect"
+        android:onClick="clicboton"
+        android:tag="Close"
+        android:text="@string/cierra_text" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/Button_Connect" >
+
+        <Button
+            android:id="@+id/Button_SEND"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clicboton"
+            android:tag="SEND"
+            android:text="enviar" />
+
+        <EditText
+            android:id="@+id/EditText_SEND"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/prefcat_com_def" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearLayout1"
+        android:orientation="vertical" >
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <TextView
+                android:id="@+id/TextView_LOG"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="LOG:" />
+        </ScrollView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Button_Clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/EditText_Port"
+        android:onClick="clicboton"
+        android:tag="Clear"
+        android:text="@string/clear_text" />
+
+    <Button
+        android:id="@+id/Button_RL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout1"
+        android:layout_marginRight="50dp"
+        android:layout_toLeftOf="@+id/Button_Clear"
+        android:onClick="clicboton"
+        android:tag="RL"
+        android:text="1L" />
+
+</RelativeLayout>

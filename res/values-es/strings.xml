@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="hello">Hola Mundo</string>
+    <string name="prefcat_valoresdef_sum">Valores por defecto para IP y puerto</string>
+    <string name="prefcat_valoresdef_tit">Valores por defecto</string>
+    <string name="app_name">Android Socket Tester</string>
+    <string name="prefcat_port_sum">Puerto por defecto</string>
+    <string name="prefcat_ip_sum">IP por defecto</string>
+    <string name="prefcat_port_tit">Puerto</string>
+    <string name="prefcat_com_def">comando</string>
+    <string name="prefcat_com_sum">Comando por defecto</string>
+    <string name="prefcat_com_tit">Comando</string>
+    <string name="prefcat_numtabs_tit">Pestañas</string>
+    <string name="prefcat_numtabs_sum">Numero de pestañas iniciales</string>
+    <string name="about_label">Acerca de...</string>
+    <string name="menu_about_tit">Acerca de...</string>
+    <string name="menu_config_tit">Configuración</string>
+    <string name="menu_plus_tit">Nueva</string>
+    <string name="menu_minus_tit">Borra</string>
+    <string name="puerto_text">Puerto:</string>
+    <string name="conecta_text">Conecta</string>
+    <string name="cierra_text">Cierra</string>
+    <string name="send_text">Envia</string>
+    <string name="clear_text">Limpia</string>
+    <string name="prefcat_otros_sum">Configuraciones extra</string>
+    <string name="prefcat_otros_tit">Extra</string>
+    <string name="prefcat_otros_pasopaso_sum">Recibe respuesta linea a linea</string>
+    <string name="prefcat_otros_pasopaso_tit">Paso a paso</string>
+</resources>
